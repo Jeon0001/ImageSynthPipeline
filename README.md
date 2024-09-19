@@ -8,8 +8,7 @@ Python 3.10.12
 2.4.1+cu121
 
 #### Inpainting Model Used
-stabilityai/stable-diffusion-2-inpainting
-https://huggingface.co/stabilityai/stable-diffusion-2-inpainting
+stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/stable-diffusion-2-inpainting
 
 ## Instructions (Setup)
 0. (optional) conda create -n synthesis-pipeline python=3.10.12

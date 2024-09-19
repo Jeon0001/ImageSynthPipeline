@@ -24,4 +24,4 @@ stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/st
 
 ### Todo:
 1. Combine with automasker (segment-anything?)
-2. Figure out checkpoint for inpainting.
+2. Figure out checkpoint for inpainting. "x4-upscaling-ema.ckpt"

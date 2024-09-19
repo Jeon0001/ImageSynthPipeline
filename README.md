@@ -1,5 +1,7 @@
 # ImageSynthPipeline
-Image Synthesis Pipeline for Creation of dataset with cultural notions
+Image Synthesis Pipeline for Creation of dataset with cultural notions.\
+**Refer Instructions, then Pipeline_Image_Synthesis.ipynb for step by step code.**
+
 
 #### Python Ver.
 Python 3.10.12

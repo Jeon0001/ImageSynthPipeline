@@ -1,0 +1,4 @@
+input_images/*.png
+input_images/*.jpg
+input_images/*.jpeg
+mask_images/*.png

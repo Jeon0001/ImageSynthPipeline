@@ -2,6 +2,11 @@
 Image Synthesis Pipeline for Creation of dataset with cultural notions. (Step 4 for automatic VQA using BLIP model.)
 **Refer Instructions, then Pipeline_Image_Synthesis.ipynb for step by step code.**
 
+## Commit 21.
+Added API compatibility for inpainting method
+Follow instructions in notebook.
+
+
 
 #### Python Ver.
 Python 3.10.12

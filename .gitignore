@@ -13,3 +13,5 @@ API_Access/Input_Masks/*.jpeg
 API_Access/Output_Images/*.png
 API_Access/Output_Images/*.jpg
 API_Access/Output_Images/*.jpeg
+
+.env

@@ -4,7 +4,7 @@ from bing_image_downloader import downloader
 query = "Korean People Eating Korean Food"
 
 # limit contains number of images to download
-limit = 10
+limit = 50
 
 # output_dir contains path to save images
 output_dir = "/media/jun/D47B-F7B9/People Eating Dataset"

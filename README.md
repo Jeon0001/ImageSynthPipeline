@@ -22,9 +22,11 @@ stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/st
 1. ```pip install diffusers transformers accelerate scipy safetensors```
 2. ```pip install salesforce-lavis```
 
-## Instructions (Google Image Scraper Setup)
+## Instructions (Input Image Generator Pipeline)
 0. ```pip install git+https://github.com/ostrolucky/Bulk-Bing-Image-downloader```
-1. Check /Image Scraper for instructions
+1. Check "/ImageSynthPipeline/Input Image Pipeline/Step1_Image Scrapers" for instructions and scrape web for images that contain certain query
+2. ```pip install opencv-python```
+3. Check "/ImageSynthPipeline/Input Image Pipeline/Step2_Image Face Detector" to filter images that contain people
 
 ### Limitations:
 1. Limited 512x512 resolution

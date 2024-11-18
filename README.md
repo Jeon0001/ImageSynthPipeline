@@ -24,6 +24,7 @@ stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/st
 
 ## Instructions (Google Image Scraper Setup)
 0. ```pip install bing-image-downloader```
+0-1. Recommended: ```or pip install git+https://github.com/ostrolucky/Bulk-Bing-Image-downloader```
 
 ### Limitations:
 1. Limited 512x512 resolution

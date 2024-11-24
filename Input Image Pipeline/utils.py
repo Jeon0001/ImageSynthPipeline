@@ -163,7 +163,7 @@ def search_youtube_videos(query, api_key, max_results=5):
 
     return videos
 
-def filter_faces(input_dir):
+def filter_faces(input_dir, output_dir):
     script_directory = os.path.dirname(os.path.abspath(__file__))
     # Construct the full path to the Haar Cascade file
     cascade_path = os.path.join(script_directory, 'haarcascade_frontalface_default.xml')
@@ -186,6 +186,6 @@ def filter_faces(input_dir):
                 minSize=(30, 30)
             )
 
-            # If faces are detected, remove the file
+            # If no face is detected, remove the image
             if len(faces) == 0:
                 os.remove(img_path)

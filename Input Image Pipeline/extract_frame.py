@@ -12,6 +12,7 @@ def main():
     parser.add_argument('-p', '--text-prompt', type=str, default='A person with the food', help='Text prompt for CLIP model')
     parser.add_argument('-o', '--output-dir', type=str, default='saved_images', help='Output directory for saved frames')
     parser.add_argument('-ya', '--youtube-api-key', type=str, default='', help='YouTube API key')    
+    parser.add_argument('-ff', '--filter-faces', action='store_true', help='Filter out images without faces')
     parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')
 
     args = parser.parse_args()
@@ -42,10 +43,11 @@ def main():
         except Exception as e:
             print(f"Error processing video {i+1}: {str(e)}")
             continue
-    
-    print("Filtering out images without faces...")
-    filter_faces(args.output_dir)
-    print("Filtering done!")
+        
+    if args.filter_faces:
+        print("Filtering out images without faces...")
+        filter_faces(args.output_dir)
+        print("Filtering done!")
     
 if __name__ == "__main__":
     main()

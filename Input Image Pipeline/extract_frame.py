@@ -42,6 +42,10 @@ def main():
         except Exception as e:
             print(f"Error processing video {i+1}: {str(e)}")
             continue
-
+    
+    print("Filtering out images without faces...")
+    filter_faces(args.output_dir)
+    print("Filtering done!")
+    
 if __name__ == "__main__":
     main()

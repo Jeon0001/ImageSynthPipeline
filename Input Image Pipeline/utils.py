@@ -3,8 +3,7 @@ import cv2
 import subprocess
 import ffmpeg
 import json
-import sys
-import time
+import shutil
 import torch
 import numpy as np
 from transformers import CLIPProcessor, CLIPModel
@@ -132,7 +131,7 @@ class StreamingVideoFrameExtractor:
         if self.verbose:
             print(f"Frames extracted successfully!")
         for i, (frame, score, frame_number) in enumerate(frames):
-            output_path = f"{base_output_path}_video-{video_index}_top-{i}.jpg"
+            output_path = f"{base_output_path}/video-{video_index}_top-{i}.jpg"
             frame_bgr = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
             cv2.imwrite(output_path, frame_bgr)
             saved_paths.append(output_path)
@@ -163,3 +162,30 @@ def search_youtube_videos(query, api_key, max_results=5):
             videos.append(video_info)
 
     return videos
+
+def filter_faces(input_dir):
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    # Construct the full path to the Haar Cascade file
+    cascade_path = os.path.join(script_directory, 'haarcascade_frontalface_default.xml')
+
+    # Load the Haar Cascade Classifier for face detection
+    face_cascade = cv2.CascadeClassifier(cascade_path)
+
+    # Process each image in the input directory
+    for filename in os.listdir(input_dir):
+        if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
+            img_path = os.path.join(input_dir, filename)
+            image = cv2.imread(img_path)
+            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+            # Detect faces in the image
+            faces = face_cascade.detectMultiScale(
+                gray,
+                scaleFactor=1.1,
+                minNeighbors=5,
+                minSize=(30, 30)
+            )
+
+            # If faces are detected, remove the file
+            if len(faces) == 0:
+                os.remove(img_path)

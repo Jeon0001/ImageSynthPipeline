@@ -7,7 +7,6 @@ import sys
 import time
 import torch
 import numpy as np
-from dotenv import load_dotenv
 from transformers import CLIPProcessor, CLIPModel
 from PIL import Image
 from googleapiclient.discovery import build
@@ -15,14 +14,6 @@ from urllib.parse import urlparse, parse_qs
 from typing import Dict, List, Tuple
 
 
-def load_api_key(in_colab=False):
-    if in_colab:
-        from google.colab import userdata
-        return userdata.get('OPENAI_API_KEY')
-    else:
-        load_dotenv()
-        return os.getenv('OPENAI_API_KEY')
-    
 class StreamingVideoFrameExtractor:
     def __init__(self):
         self.model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")

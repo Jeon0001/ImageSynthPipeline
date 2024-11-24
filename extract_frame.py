@@ -1,6 +1,8 @@
 import argparse
 import sys
+import os
 from utils import * 
+from dotenv import load_dotenv
 
 def main():
     parser = argparse.ArgumentParser(description='Extract frames from YouTube videos based on visual similarity to a text prompt.')
@@ -9,15 +11,16 @@ def main():
     parser.add_argument('-mf', '--max-frames', type=int, default=3, help='Maximum number of frames to extract per video')
     parser.add_argument('-p', '--text-prompt', type=str, default='A person with the food', help='Text prompt for CLIP model')
     parser.add_argument('-o', '--output-dir', type=str, default='saved_images', help='Output directory for saved frames')
-    parser.add_argument('-v', '--verbose', action='store_false', help='Enable verbose output')
+    parser.add_argument('-ya', '--youtube-api-key', type=str, default='', help='YouTube API key')    
+    parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')
 
     args = parser.parse_args()
-    IN_COLAB = 'google.colab' in sys.modules
-    youtube_api_key = load_api_key(IN_COLAB)
-    
+    load_dotenv()
+
+    youtube_api_key = os.getenv('OPENAI_API_KEY') if not args.youtube_api_key else args.youtube_api_key
+
     extractor = StreamingVideoFrameExtractor()
     extractor.verbose = args.verbose
-
 
     search_results = search_youtube_videos(args.search_query, youtube_api_key, args.max_results)
     if not search_results:
@@ -25,9 +28,9 @@ def main():
         return
 
     for i, video in enumerate(search_results):
-        if args.verbose:
-            print(f"Processing video {i+1}/{len(search_results)}")
-            print(f"Title: {video['title']} | url: {video['url']}")
+
+        print(f"Processing video {i+1}/{len(search_results)}")
+        print(f"Title: {video['title']} | url: {video['url']}")
         
         try:
             results = extractor.extract_top_frames_from_stream(

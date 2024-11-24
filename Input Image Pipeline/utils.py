@@ -130,8 +130,10 @@ class StreamingVideoFrameExtractor:
         saved_paths = []
         if self.verbose:
             print(f"Frames extracted successfully!")
+            
         for i, (frame, score, frame_number) in enumerate(frames):
-            output_path = f"{base_output_path}/video-{video_index}_top-{i}.jpg"
+            food_name = urlparse(base_output_path).path.split('/')[-1].replace(" ", "_")
+            output_path = f"{base_output_path}/{food_name}_video-{video_index+1}_top-{i+1}.jpg"
             frame_bgr = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
             cv2.imwrite(output_path, frame_bgr)
             saved_paths.append(output_path)

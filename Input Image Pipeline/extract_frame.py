@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 
 def main():
     parser = argparse.ArgumentParser(description='Extract frames from YouTube videos based on visual similarity to a text prompt.')
-    parser.add_argument('-s', '--search-query', type=str, required=True, help='Name of the food to search for')
+    parser.add_argument('-f', '--food-name', type=str, required=True, help='Name of the food to search for')
+    parser.add_argument('-s', '--search-query', type=str, required=True, help='The beginning of the search query. It will be appended with the food name')
     parser.add_argument('-mr', '--max-results', type=int, default=10, help='Maximum number of videos to process')
     parser.add_argument('-mf', '--max-frames', type=int, default=3, help='Maximum number of frames to extract per video')
     parser.add_argument('-p', '--text-prompt', type=str, default='A person with the food', help='Text prompt for CLIP model')
@@ -16,14 +17,15 @@ def main():
     parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')
 
     args = parser.parse_args()
+    
     load_dotenv()
-
     youtube_api_key = os.getenv('OPENAI_API_KEY') if not args.youtube_api_key else args.youtube_api_key
 
     extractor = StreamingVideoFrameExtractor()
     extractor.verbose = args.verbose
-
-    search_results = search_youtube_videos(args.search_query, youtube_api_key, args.max_results)
+    
+    video_query = f"{args.search_query} {args.food_name}"
+    search_results = search_youtube_videos(video_query, youtube_api_key, args.max_results)
     if not search_results:
         print("No matching videos found")
         return

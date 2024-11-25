@@ -12,15 +12,15 @@ def main():
     parser.add_argument('-mf', '--max-frames', type=int, default=3, help='Maximum number of frames to extract per video')
     parser.add_argument('-p', '--text-prompt', type=str, default='A person with the food', help='Text prompt for CLIP model')
     parser.add_argument('-o', '--output-dir', type=str, default='saved_images', help='Output directory for saved frames')
-    parser.add_argument('-ya', '--youtube-api-key', type=str, default='', help='YouTube API key')    
+    parser.add_argument('-ya', '--youtube-api-key', type=str, default='', help='YouTube API key when running in google colab')    
     parser.add_argument('-ff', '--filter-faces', action='store_true', help='Filter out images without faces')
     parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')
 
     args = parser.parse_args()
     
     load_dotenv()
-    youtube_api_key = os.getenv('OPENAI_API_KEY') if not args.youtube_api_key else args.youtube_api_key
-
+    youtube_api_key = os.getenv('YOUTUBE_API_KEY') if not args.youtube_api_key else args.youtube_api_key
+    
     extractor = StreamingVideoFrameExtractor()
     extractor.verbose = args.verbose
     

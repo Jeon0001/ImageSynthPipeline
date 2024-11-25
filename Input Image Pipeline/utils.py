@@ -165,7 +165,7 @@ def search_youtube_videos(query, api_key, max_results=5):
 
     return videos
 
-def filter_faces(input_dir, output_dir):
+def filter_faces(input_dir):
     script_directory = os.path.dirname(os.path.abspath(__file__))
     # Construct the full path to the Haar Cascade file
     cascade_path = os.path.join(script_directory, 'haarcascade_frontalface_default.xml')

@@ -1,0 +1,5 @@
+opencv-python
+yt-dlp
+ffmpeg-python
+python-dotenv
+google-api-python-client

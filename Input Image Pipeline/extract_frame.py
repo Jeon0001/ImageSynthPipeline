@@ -1,5 +1,6 @@
 import argparse
 import os
+from image_collect_utils import * 
 from dotenv import load_dotenv
 import cv2
 import subprocess

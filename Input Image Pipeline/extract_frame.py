@@ -1,7 +1,7 @@
 import argparse
 import sys
 import os
-from utils import * 
+from image_collect_utils import * 
 from dotenv import load_dotenv
 
 def main():

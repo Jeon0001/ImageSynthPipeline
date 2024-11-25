@@ -5,7 +5,7 @@ images/mask_images/*.png
 images/result_images/*.png
 
 images/input_images/*
-API_Access/Input_Masks/*
-API_Access/Output_Images/*
+images/input_masks/*
+images/output_images/*
 
 .env

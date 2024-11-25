@@ -191,3 +191,5 @@ def filter_faces(input_dir):
             # If no face is detected, remove the image
             if len(faces) == 0:
                 os.remove(img_path)
+
+

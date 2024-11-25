@@ -32,7 +32,8 @@ stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/st
 1. Check "/ImageSynthPipeline/Input Image Pipeline/Step1_Image Scrapers" for instructions and scrape web for images that contain certain query
 2. `pip install opencv-python`
 3. Check "/ImageSynthPipeline/Input Image Pipeline/Step2_Image Face Detector" to filter images that contain people
-4. For extracting frames from YouTube, `pip install yt-dlp ffmpeg-python python-dotenv google-api-python-client`
+4. For extracting frames from YouTube, `pip install yt-dlp ffmpeg-python python-dotenv google-api-python-client`. If `ffmpeg` is still not found, try `sudo apt install ffmpeg`
+   - Make sure to keep your own YouTube Data API Key in `.env` file, `YOUTUBE_API_KEY=<your_key>` or directly pass the key as an argument to the command (not recommended).
 
 ### Limitations:
 

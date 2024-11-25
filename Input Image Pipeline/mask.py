@@ -1,7 +1,6 @@
 import torch
 import argparse
 import numpy as np
-import IPython
 import matplotlib.pyplot as plt
 import cv2
 import io
@@ -14,15 +13,12 @@ from tqdm import tqdm
 
 class FaceDetectorYunet():
     def __init__(self,
-                  model_path='models/face_detection_yunet_2023mar.onnx',
+                  model_path='../models/face_detection_yunet_2023mar.onnx',
                   img_size=(300, 300),
                   threshold=0.5):
         self.model_path = model_path
         self.img_size = img_size
-        self.fd = cv2.FaceDetectorYN_create(str(model_path),
-                                            "",
-                                            img_size,
-                                            score_threshold=threshold)
+        self.fd = cv2.FaceDetectorYN_create(str(model_path),"", img_size, score_threshold=threshold)
 
     def draw_faces(self,
                    image,
@@ -201,32 +197,22 @@ def detect_faces(predictor, fd, input_dir, output_dir, save_boxes=False):
 def main():
     parser = argparse.ArgumentParser(description='Extract frames from YouTube videos based on visual similarity to a text prompt.')
     parser.add_argument('-i', '--input-dir', type=str, default='images/input_images', help='Directory containing input images')
-    parser.add_argument('-o', '--output-dir', type=str, default='saved_images', help='Output directory for saved frames')
+    parser.add_argument('-o', '--output-dir', type=str, default='images/input_masks', help='Output directory for saved frames')
     args = parser.parse_args()
     
     IN_COLAB = 'google.colab' in sys.modules
     print("CUDA is available:", torch.cuda.is_available())
     
-    os.makedirs('models', exist_ok=True)
     ### download the models
     sam_checkpoint = "sam_vit_h_4b8939.pth"
     face_detection_model = "face_detection_yunet_2023mar.onnx"
-    
-    # download SAM
-    if not os.path.isfile(f'models/{sam_checkpoint}'):
-        !wget https://dl.fbaipublicfiles.com/segment_anything/$sam_checkpoint
-        !mv $sam_checkpoint models/
 
-    # download YuNet Faec Detection Model
-    if not os.path.isfile(f'models/{face_detection_model}'):
-        !wget https://github.com/astaileyyoung/CineFace/raw/main/research/data/face_detection_yunet_2023mar.onnx
-        !mv $face_detection_model models/
         
     ### load the SAM model and predictor
     model_type = "vit_h"
     device = "cuda"
 
-    sam = sam_model_registry[model_type](checkpoint=f'models/{sam_checkpoint}')
+    sam = sam_model_registry[model_type](checkpoint=f'../models/{sam_checkpoint}')
     sam.to(device=device)
 
     predictor = SamPredictor(sam)
@@ -234,3 +220,6 @@ def main():
     ### detect faces
     fd = FaceDetectorYunet()
     detect_faces(predictor, fd, args.input_dir, args.output_dir)
+
+if __name__ == "__main__":
+    main()

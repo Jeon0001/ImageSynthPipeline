@@ -197,7 +197,7 @@ def detect_faces(predictor, fd, input_dir, output_dir, save_boxes=False):
 def main():
     parser = argparse.ArgumentParser(description='Extract frames from YouTube videos based on visual similarity to a text prompt.')
     parser.add_argument('-i', '--input-dir', type=str, default='images/input_images', help='Directory containing input images')
-    parser.add_argument('-o', '--output-dir', type=str, default='images/input_masks', help='Output directory for saved frames')
+    parser.add_argument('-o', '--output-dir', type=str, default='images/masks_images', help='Output directory for saved frames')
     args = parser.parse_args()
     
     IN_COLAB = 'google.colab' in sys.modules

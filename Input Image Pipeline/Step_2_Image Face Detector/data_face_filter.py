@@ -4,8 +4,8 @@ import shutil
 
 # Paths to input and output directories
 # Change as needed
-input_dir = 'D:/Data Downloads/Bing Image Scraped Results/KoreanEaters'
-output_dir = 'D:/Data Downloads/Bing Image Scraped Results/KoreanEatersFaceOnly'
+input_dir = 'D:\Data Downloads\Bing Image Scraped Results\Korean Clothes'
+output_dir = 'D:\Data Downloads\Bing Image Scraped Results\Korean Clothes Face'
 
 # Ensure output directory exists
 os.makedirs(output_dir, exist_ok=True)

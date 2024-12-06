@@ -39,5 +39,5 @@ def remove_duplicate_images(folder_path):
     print(f"Duplicate removal complete. {duplicate_count} duplicates removed.")
 
 # Example usage:
-folder_path = "D:/Data Downloads/Bing Image Scraped Results/KoreanEatersFaceOnly"  # Replace with your folder path
+folder_path = "D:\Data Downloads\Bing Image Scraped Results\Korean Clothes"  # Replace with your folder path
 remove_duplicate_images(folder_path)

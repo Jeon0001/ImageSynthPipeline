@@ -104,11 +104,10 @@ def show_mask(mask, ax, random_color=False, display=False):
         color = np.concatenate([np.random.random(3), np.array([0.6])], axis=0)
     else:
         # color to inpaint (white)
-        # color = np.array([255, 255, 255])
-        color = np.array([0, 0, 0])
+        color = np.array([255, 255, 255])
 
     # color to keep intact (black)
-    background_color = np.array([255, 255, 255])
+    background_color = np.array([0, 0, 0])
     h, w = mask.shape[-2:]
 
     # Reshape the mask to have the same number of color channels

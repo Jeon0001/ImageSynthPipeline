@@ -7,7 +7,14 @@ def calculate_metrics(file_path):
     data = pd.read_csv(file_path)
 
     # Add a column to check if Original_Country is mentioned in Content
-    data['Match'] = data.apply(lambda row: 1 if row['Original_Country'].lower() in row['Content'].lower() else 0, axis=1)
+    data['Match'] = data.apply(
+        lambda row: 1 if any(term.lower() in row['Content'].lower() for term in row['Original_Country'].split(',')) else 0, axis=1
+    )
+
+    # Normalize Original_Country to treat each unique combination as a single entity
+    data['Original_Country'] = data['Original_Country'].apply(
+        lambda x: ', '.join(sorted(set(term.strip() for term in x.split(','))))
+    )
 
     # Group the data by Original_Country and calculate metrics for each group
     results = []

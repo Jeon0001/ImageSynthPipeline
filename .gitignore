@@ -1,14 +1,3 @@
-images/input_images/*.png
-images/input_images/*.jpg
-images/input_images/*.jpeg
-images/mask_images/*.png
-images/result_images/*.png
-
-images/input_images/*
-images/input_masks/*
-images/output_images/*
-
-
 API_Access/Input_Images/*.png
 API_Access/Input_Images/*.jpg
 API_Access/Input_Images/*.jpeg

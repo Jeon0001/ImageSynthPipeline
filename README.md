@@ -35,24 +35,50 @@ stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/st
 4. For extracting frames from YouTube, `pip install yt-dlp ffmpeg-python python-dotenv google-api-python-client`. If `ffmpeg` is still not found, try `sudo apt install ffmpeg`
    - Make sure to keep your own YouTube Data API Key in `.env` file, `YOUTUBE_API_KEY=<your_key>` or directly pass the key as an argument to the command (not recommended).
 
-## Folder Structure
+## Image Folder Structure
 
 ```
-images
-      |---input_images
-            |---food
-                  |---country
-            |---clothes
-                  |---country
-      |---masks_images
-      |---output_images
-Input Image Pipeline
-      |---extract_frame.py
-      |---mask.py
-      |---pipeline.ipynb   # uses mask.py and extract_frame.py
-API_Access
-UTKFace_SortedByRace
+├── images
+│   ├── input_images
+│   │   ├── clothes
+│   │   │   ├── Korean
+│   │   │   ├── Myanmar
+│   │   │   └── UK
+│   │   └── food
+│   │       └── Myanmar
+│   ├── mask_images
+│   │   ├── clothes
+│   │   └── food
+│   └── synthesized_images
+│       └── clothes
+│           ├── Azerbaijan
+│           │   ├── Asian
+│           │   ├── Black
+│           │   ├── Caucasian
+│           │   └── Indian
+│           ├── Korean
+│           │   ├── Asian
+│           │   ├── Black
+│           │   ├── Indian
+│           │   └── White
+│           ├── Myanmar
+│           │   ├── Asian
+│           │   ├── Black
+│           │   ├── Indian
+│           │   └── White
+│           └── UK
+│               ├── Asian
+│               ├── Black
+│               ├── Indian
+│               └── White
 ```
+
+The format of image files are as follows:
+
+- **original image**: `<original_country>_<type>_<index>.png`
+- **mask image**: `<original_country>_<type>_<index>_mask.png`
+- **synthesized image**: `<original_country>_<synthesized_race>_<type>_<index>.png`
+  where `type` can be either `clothes`, `food`, or `festivals`.
 
 ### Limitations:
 
@@ -60,5 +86,4 @@ UTKFace_SortedByRace
 
 ### Todo:
 
-1. Combine with automasker (segment-anything?)
-2. Figure out checkpoint for inpainting. "x4-upscaling-ema.ckpt"
+1. Figure out checkpoint for inpainting. "x4-upscaling-ema.ckpt"

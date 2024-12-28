@@ -1,12 +1,1 @@
-API_Access/Input_Images/*.png
-API_Access/Input_Images/*.jpg
-API_Access/Input_Images/*.jpeg
-API_Access/Input_Masks/*.png
-API_Access/Input_Masks/*.jpg
-API_Access/Input_Masks/*.jpeg
-API_Access/Output_Images/*.png
-API_Access/Output_Images/*.jpg
-API_Access/Output_Images/*.jpeg
-API_Access/StabilityAPI_Pipeline_automated.ipynb
-
 .env

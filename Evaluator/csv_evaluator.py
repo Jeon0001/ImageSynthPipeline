@@ -8,20 +8,20 @@ def calculate_metrics(file_path):
 
     # Add a column to check if Original_Country is mentioned in Content
     data['Match'] = data.apply(
-        lambda row: 1 if any(term.lower() in row['Content'].lower() for term in row['Original_Country'].split(',')) else 0, axis=1
+        lambda row: 1 if any(term.lower() in row['response'].lower() for term in row['original_country'].split(',')) else 0, axis=1
     )
 
     # Normalize Original_Country to treat each unique combination as a single entity
-    data['Original_Country'] = data['Original_Country'].apply(
+    data['original_country'] = data['original_country'].apply(
         lambda x: ', '.join(sorted(set(term.strip() for term in x.split(','))))
     )
 
-    # Group the data by Original_Country and calculate metrics for each group
+    # Group the data by original_country and calculate metrics for each group
     results = []
-    unique_countries = data['Original_Country'].unique()
+    unique_countries = data['original_country'].unique()
 
     for country in unique_countries:
-        country_data = data[data['Original_Country'] == country]
+        country_data = data[data['original_country'] == country]
         y_true = [1] * len(country_data)  # Ground truth is always positive for this task
         y_pred = country_data['Match'].tolist()
 
@@ -36,6 +36,7 @@ def calculate_metrics(file_path):
             'Recall': recall,
             'F1 Score': f1,
             'Accuracy': accuracy,
+            'Correct Samples': sum(y_pred),
             'Total Samples': len(country_data)
         })
 
@@ -44,7 +45,8 @@ def calculate_metrics(file_path):
     return results_df
 
 # Specify the path to your file
-file_path = 'D:/Data Downloads/Bing Image Scraped Results/responses_synthesized.csv'
+# file_path = 'D:/Data Downloads/Bing Image Scraped Results/responses_synthesized.csv'
+file_path = 'responses/responses_synthesized.csv'
 
 # Calculate metrics
 results_df = calculate_metrics(file_path)

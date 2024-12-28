@@ -39,7 +39,7 @@ stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/st
 
 ```
 ├── images
-│   ├── input_images
+│   ├── original_images
 │   │   ├── clothes
 │   │   │   ├── Korean
 │   │   │   ├── Myanmar

@@ -29,7 +29,17 @@ def calculate_metrics(file_path):
         recall = recall_score(y_true, y_pred, zero_division=0)
         f1 = f1_score(y_true, y_pred, zero_division=0)
         accuracy = accuracy_score(y_true, y_pred)
-
+        
+        # Identify misclassified samples
+        misclassified_indices = [i for i, (true, pred) in enumerate(zip(y_true, y_pred)) if true != pred]
+        misclassified_data = country_data.iloc[misclassified_indices]
+        
+        # printing the misclassified data
+        print(f"Country: {country}")   
+        print("Indices of misclassified samples:", misclassified_indices)
+        print("Misclassified data:", misclassified_data)
+        print("=======================================================")
+        
         results.append({
             'Country': country,
             'Precision': precision,

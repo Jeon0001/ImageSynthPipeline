@@ -39,38 +39,44 @@ stabilityai/stable-diffusion-2-inpainting: https://huggingface.co/stabilityai/st
 
 ```
 ├── images
-│   ├── original_images
-│   │   ├── clothes
-│   │   │   ├── Korean
-│   │   │   ├── Myanmar
-│   │   │   └── UK
-│   │   └── food
-│   │       └── Myanmar
-│   ├── mask_images
-│   │   ├── clothes
-│   │   └── food
-│   └── synthesized_images
-│       └── clothes
-│           ├── Azerbaijan
-│           │   ├── Asian
-│           │   ├── Black
-│           │   ├── Caucasian
-│           │   └── Indian
-│           ├── Korean
-│           │   ├── Asian
-│           │   ├── Black
-│           │   ├── Indian
-│           │   └── White
-│           ├── Myanmar
-│           │   ├── Asian
-│           │   ├── Black
-│           │   ├── Indian
-│           │   └── White
-│           └── UK
-│               ├── Asian
-│               ├── Black
-│               ├── Indian
-│               └── White
+│   ├── Azerbaijani_Clothes
+│   │   └── synthesized_images
+│   │       ├── Asian
+│   │       ├── Black
+│   │       ├── Caucasian
+│   │       └── Indian
+│   ├── Korean_Food
+│   │   ├── masks
+│   │   ├── original_images
+│   │   └── synthesized_images
+│   │       ├── Asian
+│   │       ├── Black
+│   │       ├── Indian
+│   │       └── White
+│   ├── Myanmar_Clothes
+│   │   ├── masks
+│   │   ├── original_images
+│   │   └── synthesized_images
+│   │       ├── Asian
+│   │       ├── Black
+│   │       ├── Indian
+│   │       └── White
+│   ├── Myanmar_Food
+│   │   ├── masks
+│   │   ├── original_images
+│   │   └── synthesized_images
+│   │       ├── Asian
+│   │       ├── Black
+│   │       ├── Indian
+│   │       └── White
+│   ├── UK_Food
+│   │   ├── masks
+│   │   ├── original_images
+│   │   └── synthesized_images
+│   │       ├── Asian
+│   │       ├── Black
+│   │       ├── Indian
+│   │       └── White
 ```
 
 The format of image files are as follows:

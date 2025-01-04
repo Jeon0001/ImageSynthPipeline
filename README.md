@@ -93,3 +93,9 @@ The format of image files are as follows:
 ### Todo:
 
 1. Figure out checkpoint for inpainting. "x4-upscaling-ema.ckpt"
+
+
+
+### Full Pipeline Walkthrough:
+
+1. Under construction (finish by sunday)

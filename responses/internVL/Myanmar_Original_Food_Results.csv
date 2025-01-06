@@ -1,6 +1,6 @@
-original_country,synthesized_race,image_file_name,response
-Myanmar,Myanmar,Myanmar_food_0.png,"The food in the photo is mostly associated with Myanmar (Burma). The dishes shown are typical of Burmese cuisine, which often includes a variety of curries, salads, and side dishes served with rice."
-Myanmar,Myanmar,Myanmar_food_1.png,"The food in the photo is mostly associated with Thailand. The dishes include:
+original_country,synthesized_race,image_file_name,label,response
+Myanmar,Myanmar,Myanmar_food_0.png,Burmese Curry,"The food in the photo is mostly associated with Myanmar (Burma). The dishes shown are typical of Burmese cuisine, which often includes a variety of curries, salads, and side dishes served with rice."
+Myanmar,Myanmar,Myanmar_food_1.png,Laphet Thoke,"The food in the photo is mostly associated with Thailand. The dishes include:
 
 1. Rice with a half-boiled egg (common in Thai meals).
 2. Tom Yum Soup (a popular Thai soup).
@@ -8,8 +8,8 @@ Myanmar,Myanmar,Myanmar_food_1.png,"The food in the photo is mostly associated w
 4. A side dish with vegetables and possibly some type of meat or tofu, which is common in Thai cuisine.
 
 The combination of these dishes is typical of a Thai meal."
-Myanmar,Myanmar,Myanmar_food_2.png,"The food in the photo is mostly associated with Vietnam. The dish appears to be a bowl of pho, a traditional Vietnamese noodle soup. The presence of rice noodles, broth, and various toppings like herbs and bean sprouts are characteristic of pho."
-Myanmar,Myanmar,Myanmar_food_3.png,"The food in the photo is mostly associated with Southeast Asian cuisine, particularly Thai cuisine. The dishes include:
+Myanmar,Myanmar,Myanmar_food_2.png,Mohinga,"The food in the photo is mostly associated with Vietnam. The dish appears to be a bowl of pho, a traditional Vietnamese noodle soup. The presence of rice noodles, broth, and various toppings like herbs and bean sprouts are characteristic of pho."
+Myanmar,Myanmar,Myanmar_food_3.png,Mohinga,"The food in the photo is mostly associated with Southeast Asian cuisine, particularly Thai cuisine. The dishes include:
 
 1. **Tom Yum Soup**: The large pot on the portable stove is likely containing Tom Yum, a popular Thai soup known for its spicy and sour flavors.
 2. **Fried Foods**: There are various fried items, such as spring rolls and fried fish, which are common in Thai cuisine.
@@ -18,11 +18,11 @@ Myanmar,Myanmar,Myanmar_food_3.png,"The food in the photo is mostly associated w
 5. **Vegetables and Herbs**: Fresh herbs like basil and lime are commonly used in Thai dishes for added flavor.
 
 The combination of these dishes is typical of a Thai meal."
-Myanmar,Myanmar,Myanmar_food_4.png,"The food in the photo is mostly associated with Korean cuisine. The dish appears to be a Korean-style stir-fried vegetable dish, often served with rice and a fried egg on top. This type of dish is commonly known as ""Bibimbap"" or a similar variation, which is a popular Korean meal consisting of rice topped with an assortment of vegetables, meat, and a fried egg."
-Myanmar,Myanmar,Myanmar_food_5.png,"The food in the photo is mostly associated with Thailand. It appears to be a street food scene featuring grilled meats and skewers, which are common in Thai street food culture."
-Myanmar,Myanmar,Myanmar_food_6.png,"The food in the photo is mostly associated with Vietnam. The food is a Vietnamese dish called ""Bun Bo Hue."""
-Myanmar,Myanmar,Myanmar_food_7.png,"The food in the photo is mostly associated with Thailand. The dish appears to be a bowl of Thai noodles, likely a type of pad Thai or a similar noodle dish. The presence of lime wedges, a hard-boiled egg, and a side of soup or broth are common accompaniments in Thai cuisine."
-Myanmar,Myanmar,Myanmar_food_8.png,"The food in the photo is mostly associated with Indonesian cuisine. The dishes include:
+Myanmar,Myanmar,Myanmar_food_4.png,Laphet Thoke,"The food in the photo is mostly associated with Korean cuisine. The dish appears to be a Korean-style stir-fried vegetable dish, often served with rice and a fried egg on top. This type of dish is commonly known as ""Bibimbap"" or a similar variation, which is a popular Korean meal consisting of rice topped with an assortment of vegetables, meat, and a fried egg."
+Myanmar,Myanmar,Myanmar_food_5.png,Dote Htoe,"The food in the photo is mostly associated with Thailand. It appears to be a street food scene featuring grilled meats and skewers, which are common in Thai street food culture."
+Myanmar,Myanmar,Myanmar_food_6.png,Dote Htoe,"The food in the photo is mostly associated with Vietnam. The food is a Vietnamese dish called ""Bun Bo Hue."""
+Myanmar,Myanmar,Myanmar_food_7.png,Ohn No Khao Swe,"The food in the photo is mostly associated with Thailand. The dish appears to be a bowl of Thai noodles, likely a type of pad Thai or a similar noodle dish. The presence of lime wedges, a hard-boiled egg, and a side of soup or broth are common accompaniments in Thai cuisine."
+Myanmar,Myanmar,Myanmar_food_8.png,Burmese Curry,"The food in the photo is mostly associated with Indonesian cuisine. The dishes include:
 
 1. **Rice** - A staple in Indonesian meals.
 2. **Sate** - Skewered meat, often served with peanut sauce.
@@ -32,14 +32,14 @@ Myanmar,Myanmar,Myanmar_food_8.png,"The food in the photo is mostly associated w
 6. **Pecel Lele** - A dish made with fried catfish and vegetables in a spicy sauce.
 
 These dishes are typical of Indonesian cuisine, known for its rich flavors and variety of spices."
-Myanmar,Myanmar,Myanmar_food_9.png,The food in the photo is mostly associated with Thailand. The food is Thai.
-Myanmar,Myanmar,Myanmar_food_10.png,The food in the photo is mostly associated with Thailand. The food is a bowl of noodles.
-Myanmar,Myanmar,Myanmar_food_11.png,"The food in the photo is mostly associated with Thailand. It appears to be a type of street food, likely Thai-style grilled meats and skewers, often served with dipping sauces."
-Myanmar,Myanmar,Myanmar_food_12.png,"The food in the photo is associated with Malaysia. It appears to be a dish called ""Mee Rebus,"" which is a popular Malaysian noodle dish. It typically consists of yellow noodles, eggs, and a savory sauce, often served with vegetables and sometimes meat."
-Myanmar,Myanmar,Myanmar_food_13.png,"The food in the photo is associated with Thailand. It appears to be a bowl of Tom Yum Goong, a popular spicy and sour soup made with shrimp, lemongrass, and other aromatic ingredients."
-Myanmar,Myanmar,Myanmar_food_14.png,"The food in the photo is mostly associated with Thailand. The dishes include various types of Thai noodles and curries, which are popular in Thai cuisine."
-Myanmar,Myanmar,Myanmar_food_15.png,"The food in the photo is mostly associated with Thailand. It appears to be a dish of Khao Soi, a popular Thai noodle soup. The dish typically includes noodles, vegetables, and a variety of toppings such as pickled mustard greens, lime, and fresh herbs."
-Myanmar,Myanmar,Myanmar_food_16.png,"The food in the photo is associated with Malaysia. It appears to be a bowl of laksa, a popular noodle soup dish."
-Myanmar,Myanmar,Myanmar_food_17.png,"The food in the photo is associated with Malaysia. It appears to be a bowl of laksa, a popular noodle soup dish in Southeast Asian cuisine."
-Myanmar,Myanmar,Myanmar_food_18.png,"The food in the photo is mostly associated with Vietnam. It appears to be a bowl of pho, a traditional Vietnamese noodle soup."
-Myanmar,Myanmar,Myanmar_food_19.png,"The food in the photo is mostly associated with Malaysia. The dishes appear to be variations of Malaysian noodles, such as laksa or mee, which are popular in the region."
+Myanmar,Myanmar,Myanmar_food_9.png,Dote Htoe,The food in the photo is mostly associated with Thailand. The food is Thai.
+Myanmar,Myanmar,Myanmar_food_10.png,Mohinga,The food in the photo is mostly associated with Thailand. The food is a bowl of noodles.
+Myanmar,Myanmar,Myanmar_food_11.png,Dote Htoe,"The food in the photo is mostly associated with Thailand. It appears to be a type of street food, likely Thai-style grilled meats and skewers, often served with dipping sauces."
+Myanmar,Myanmar,Myanmar_food_12.png,Nan Gyi Thoke,"The food in the photo is associated with Malaysia. It appears to be a dish called ""Mee Rebus,"" which is a popular Malaysian noodle dish. It typically consists of yellow noodles, eggs, and a savory sauce, often served with vegetables and sometimes meat."
+Myanmar,Myanmar,Myanmar_food_13.png,Mohinga,"The food in the photo is associated with Thailand. It appears to be a bowl of Tom Yum Goong, a popular spicy and sour soup made with shrimp, lemongrass, and other aromatic ingredients."
+Myanmar,Myanmar,Myanmar_food_14.png,Mohinga,"The food in the photo is mostly associated with Thailand. The dishes include various types of Thai noodles and curries, which are popular in Thai cuisine."
+Myanmar,Myanmar,Myanmar_food_15.png,Laphet Thoke,"The food in the photo is mostly associated with Thailand. It appears to be a dish of Khao Soi, a popular Thai noodle soup. The dish typically includes noodles, vegetables, and a variety of toppings such as pickled mustard greens, lime, and fresh herbs."
+Myanmar,Myanmar,Myanmar_food_16.png,Mohinga,"The food in the photo is associated with Malaysia. It appears to be a bowl of laksa, a popular noodle soup dish."
+Myanmar,Myanmar,Myanmar_food_17.png,Mohinga,"The food in the photo is associated with Malaysia. It appears to be a bowl of laksa, a popular noodle soup dish in Southeast Asian cuisine."
+Myanmar,Myanmar,Myanmar_food_18.png,Ohn No Khao Swe,"The food in the photo is mostly associated with Vietnam. It appears to be a bowl of pho, a traditional Vietnamese noodle soup."
+Myanmar,Myanmar,Myanmar_food_19.png,Mohinga,"The food in the photo is mostly associated with Malaysia. The dishes appear to be variations of Malaysian noodles, such as laksa or mee, which are popular in the region."

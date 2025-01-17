@@ -115,7 +115,7 @@ def calculate_metrics(file_path):
 
 
 # Showing the results
-file_path = 'path/to/your_new_file_with_label.csv'
+file_path = r'C:\Users\Admin\Downloads\Myanmar_Original_Food_Results.csv'
 country_df, label_df = calculate_metrics(file_path)
 print("=== Metrics By Original Country ===")
 print(country_df)

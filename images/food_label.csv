@@ -39,6 +39,7 @@ UK_food_16.png,dummy4
 UK_food_17.png,dummy4
 UK_food_18.png,dummy4
 UK_food_19.png,dummy4
+<<<<<<< HEAD
 Myanmar_food_0.png,Burmese Curry
 Myanmar_food_1.png,Laphet Thoke
 Myanmar_food_2.png,Mohinga
@@ -59,3 +60,72 @@ Myanmar_food_16.png,Mohinga
 Myanmar_food_17.png,Mohinga
 Myanmar_food_18.png,Ohn No Khao Swe
 Myanmar_food_19.png,Mohinga
+=======
+Myanmar_food_0.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
+Myanmar_food_1.png,"Laphet Thoke,Tea leaf salad" 
+Myanmar_food_2.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_3.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_4.png,"Laphet Thoke,Tea leaf salad"
+Myanmar_food_5.png,"Dote Htoe,Wat Thar Dote Htoe,pork offal skewers,pork skwers"
+Myanmar_food_6.png,"Dote Htoe,Wat Thar Dote Htoe,pork offal skewers,pork skwers"
+Myanmar_food_7.png,"Ohn No Khao Swe,coconut curry noodles,coconut curry soup,coconut curry,coconut noodles"
+Myanmar_food_8.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
+Myanmar_food_9.png,"Dote Htoe,Wat Thar Dote Htoe,pork offal skewers,pork skwers"
+Myanmar_food_10.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_11.png,"Dote Htoe,Wat Thar Dote Htoe,pork offal skewers,pork skwers"
+Myanmar_food_12.png,"Nan Gyi Thoke,Noodle salad,Khao Soi Thoke"
+Myanmar_food_13.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_14.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_15.png,"Laphet Thoke,Tea leaf salad"
+Myanmar_food_16.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
+Myanmar_food_17.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_18.png,"Ohn No Khao Swe,coconut curry noodles,coconut curry soup,coconut curry,coconut noodles"
+Myanmar_food_19.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_20.png,"Laphet Thoke,Tea leaf salad"
+Myanmar_food_21.png,"Burmese street food, Mont lin maya, Husband-and-wife snack"
+Myanmar_food_22.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
+Myanmar_food_23.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
+Myanmar_food_24.png,"Dote Htoe,Wat Thar Dote Htoe,pork offal skewers,pork skwers"
+Myanmar_food_25.png,"Ohn No Khao Swe,coconut curry noodles,coconut curry soup,coconut curry,coconut noodles"
+Myanmar_food_26.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup,Mont Te"
+Myanmar_food_27.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_28.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
+Myanmar_food_29.png,"Pe Pyote Ei Kyae Kway,Boiled Peas,Ei Kyar Kway,Naan"
+Myanmar_food_30.png,"Laphet Thoke,Tea leaf salad"
+Myanmar_food_31.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
+Myanmar_food_32.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
+Azerbaijani_food_0.jpg, “Üç bacı dolması”  
+Azerbaijani_food_1.jpg, “Üç bacı dolması”  
+Azerbaijani_food_2.jpg, “Plov”  
+Azerbaijani_food_3.jpg, “Lavaş”  
+Azerbaijani_food_4.jpg, “Şah Plov”  
+Azerbaijani_food_5.jpg, “Plov”  
+Azerbaijani_food_6.jpg, “Paxlava”  
+Azerbaijani_food_7.jpg, “Kələm dolması & yarpaq dolması”  
+Azerbaijani_food_8.jpg, “Yarpaq dolması”  
+Azerbaijani_food_9.jpg, “Somavarda hazırlanmış azərçay”  
+Azerbaijani_food_10.jpg, “Şah Plov”  
+Azerbaijani_food_11.jpg, “Zoğal kompotu”  
+Azerbaijani_food_12.jpg, “Şah Plov”  
+Azerbaijani_food_13.jpg, “Paxlava”  
+Azerbaijani_food_14.jpg, “Şah Plov”  
+Azerbaijani_food_15.jpg, “Plov”  
+Azerbaijani_food_16.jpg, “Şəkərbura”  
+Azerbaijani_food_17.jpg, “Plov”  
+Azerbaijani_food_18.jpg, “Plov & Şəkərbura & Paxlava”  
+Azerbaijani_food_19.jpg, “Plov”  
+Azerbaijani_food_20.jpg, “Lavaş”  
+Azerbaijani_food_21.jpg, “Albalı & Ərik & Gavalı mürəbbəsi”  
+Azerbaijani_food_22.jpg, “Badımcan dolması”  
+Azerbaijani_food_23.jpg, “Şah Plov”  
+Azerbaijani_food_24.jpg, “Balıq dolması”  
+Azerbaijani_food_25.jpg, “Yarpaq dolması”  
+Azerbaijani_food_26.jpg, “Qızıgül itburnu konservi”  
+Azerbaijani_food_27.jpg, “Şiş kəbab”  
+Azerbaijani_food_28.jpg, “Lülə tikə kəbab”  
+Azerbaijani_food_29.jpg, “Paxlava”  
+Azerbaijani_food_30.jpg, “Qoğal & Şəkərbura & Paxlava”  
+Azerbaijani_food_31.jpg, “Bal & Şor & Yağ səhər yeməyi”  
+Azerbaijani_food_32.jpg, “Badımcan Şiş kəbab”  
+
+>>>>>>> d1dade560d37ce76c261fc23b98fbcc09c628a3c

@@ -1,44 +1,37 @@
 image_file,label
-Korea_food_0.png,dummy
-Korea_food_1.png,dummy
-Korea_food_2.png,dummy
-Korea_food_3.png,dummy
-Korea_food_4.png,dummy
-Korea_food_5.png,dummy
-Korea_food_6.png,dummy
-Korea_food_7.png,dummy
-Korea_food_8.png,dummy
-Korea_food_9.png,dummy
-Korea_food_10.png,dummy2
-Korea_food_11.png,dummy2
-Korea_food_12.png,dummy2
-Korea_food_13.png,dummy2
-Korea_food_14.png,dummy2
-Korea_food_15.png,dummy2
-Korea_food_16.png,dummy2
-Korea_food_17.png,dummy2
-Korea_food_18.png,dummy2
-Korea_food_19.png,dummy2
-UK_food_0.png,dummy3
-UK_food_1.png,dummy3
-UK_food_2.png,dummy3
-UK_food_3.png,dummy3
-UK_food_4.png,dummy3
-UK_food_5.png,dummy3
-UK_food_6.png,dummy3
-UK_food_7.png,dummy3
-UK_food_8.png,dummy3
-UK_food_9.png,dummy3
-UK_food_10.png,dummy4
-UK_food_11.png,dummy4
-UK_food_12.png,dummy4
-UK_food_13.png,dummy4
-UK_food_14.png,dummy4
-UK_food_15.png,dummy4
-UK_food_16.png,dummy4
-UK_food_17.png,dummy4
-UK_food_18.png,dummy4
-UK_food_19.png,dummy4
+Azerbaijani_food_0.jpg,"Üç bacı dolması,Three Sisters Dolma" 
+Azerbaijani_food_1.jpg,"Üç bacı dolması,Three Sisters Dolma"
+Azerbaijani_food_2.jpg,"Plov"
+Azerbaijani_food_3.jpg,"Lavaş,Lavash"
+Azerbaijani_food_4.jpg,"Şah Plov,King Plov"
+Azerbaijani_food_5.jpg,"Plov"
+Azerbaijani_food_6.jpg,"Azərbaycan Paxlavası,Azerbaijanian Baklava"
+Azerbaijani_food_7.jpg,"Kələm dolması & yarpaq dolması,Stuffed Cabbage Dolma & Stuffed Grape Leaves Dolma"
+Azerbaijani_food_8.jpg,"Yarpaq dolması,Stuffed Grape Leaves Dolma"
+Azerbaijani_food_9.jpg,"Somavarda hazırlanmış azərçay,Samovar-Brewed Azerbaijani Tea"
+Azerbaijani_food_10.jpg,"Şah Plov,King Plov"
+Azerbaijani_food_11.jpg,"Zoğal kompotu,Cornelian Cherry Compote"
+Azerbaijani_food_12.jpg,"Şah Plov,King Plov"
+Azerbaijani_food_13.jpg,"Azərbaycan Paxlavası,Azerbaijanian Baklava"
+Azerbaijani_food_14.jpg,"Şah Plov,King Plov"
+Azerbaijani_food_15.jpg,"Plov"
+Azerbaijani_food_16.jpg,"Şəkərbura,Shekerbura"
+Azerbaijani_food_17.jpg,"Plov"
+Azerbaijani_food_18.jpg,"Plov & Şəkərbura & Paxlava,Plov & Shekerbura & Azerbaijanian Baklava"
+Azerbaijani_food_19.jpg,"Plov"
+Azerbaijani_food_20.jpg,"Lavaş,Lavash"
+Azerbaijani_food_21.jpg,"Albalı & Ərik & Gavalı mürəbbəsi,Cherry & Apricot & Plum Jam"
+Azerbaijani_food_22.jpg,"Badımcan dolması,Stuffed Eggplant Dolma"
+Azerbaijani_food_23.jpg,"Şah Plov,King Plov"
+Azerbaijani_food_24.jpg,"Balıq dolması,Stuffed Fish Dolma"
+Azerbaijani_food_25.jpg,"Yarpaq dolması,Stuffed Grape Leaves Dolma"
+Azerbaijani_food_26.jpg,"Qızıgül itburnu konservi,Rosehip Preserve"
+Azerbaijani_food_27.jpg,"Şiş kəbab,Shish Kebab"
+Azerbaijani_food_28.jpg,"Lülə tikə kəbab,Lula Kebab"
+Azerbaijani_food_29.jpg,"Paxlava,Azerbaijanian Baklava"
+Azerbaijani_food_30.jpg,"Şorqoğal & Şəkərbura & Paxlava,Shorgogal & Shekerbura & Azerbaijanian Baklava"
+Azerbaijani_food_31.jpg,"Bal & Şor & Yağ səhər yeməyi,Honey & Cream & Butter Breakfast"
+Azerbaijani_food_32.jpg,"Badımcan Şiş kəbab,Eggplant Shish Kebab"
 Myanmar_food_0.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
 Myanmar_food_1.png,"Laphet Thoke,Tea leaf salad" 
 Myanmar_food_2.png,"Mohinga,fish-based soup,fish-based broth,fish broth,fish soup"
@@ -72,4 +65,102 @@ Myanmar_food_29.png,"Pe Pyote Ei Kyae Kway,Boiled Peas,Ei Kyar Kway,Naan"
 Myanmar_food_30.png,"Laphet Thoke,Tea leaf salad"
 Myanmar_food_31.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
 Myanmar_food_32.png,"Burmese curry,Burmese cuisine,Myanmar curry,Myanmar cuisine"
-
+Korea_food_0.png,"Kimchi"
+Korea_food_1.png,"Bibimbap,Japchae,Kimchi"
+Korea_food_2.png,"Kimchi,Banchan,Pancake"
+Korea_food_3.png,"Ssam"
+Korea_food_4.png,"Banchan"
+Korea_food_5.png,"Banchan,Kimchi,Gim,Lotus Root"
+Korea_food_6.png,"Banchan"
+Korea_food_7.png,"jjajangmyeon,Kimchi,Ramyeon,Black Bean Noodles"
+Korea_food_8.png,"Banchan"
+Korea_food_9.png,"Guksu"
+Korea_food_10.png,"Guksu,Kalguksu,Ssamjang,Kimchi"
+Korea_food_11.png,"Banchan,Kimchi"
+Korea_food_12.png,"Kimchi"
+Korea_food_13.png,"Banchan"
+Korea_food_14.png,"Banchan"
+Korea_food_15.png,"Banchan,Kimchi,Galbi-tang,Soju"
+Korea_food_16.png,"Banchan,Kimchi"
+Korea_food_17.png,"Budae Jigae, Banchan"
+Korea_food_18.png,"Kimchi,Doenjang-jigae"
+Korea_food_19.png,"Japchae"
+Korea_food_20.png,"Ssam,Kimchi"
+Korea_food_21.png,"Tteokbokki,Tteok,Tteok-bokki,Gimbap"
+Korea_food_22.png,"Kimchi,Banchan"
+Korea_food_23.png,"Gukbap,Banchan,Guk,Kimchi"
+Korea_food_24.png,"Banchan"
+Korea_food_25.png,"Jeon,Kimchi,Banchan,Miyeok,Miyeok-guk"
+Korea_food_26.png,"Kimchi,Banchan,Tteok,Kkaennip"
+Korea_food_27.png,"Guk,Bibimbap,Deonjang"
+Korea_food_28.png,"Soju,Ssam,Jigae,Gim,Chojang"
+Korea_food_29.png,"Bibimbap"
+Korea_food_30.png,"Bibimbap,Doenjang,Jigae"
+Korea_food_31.png,"Kal-Guksu,Kimchi,Banchan"
+Korea_food_32.png,"bungeoppang,Bungeo,Bungeo-ppang"
+UK_food_0.png,"Baked Beans,English,Breakfast,Chips"
+UK_food_1.png,"Fish and Chips"
+UK_food_2.png,"Cottage Pie,Shepherds Pie, Shepherd"
+UK_food_3.png,"Mushy Peas,Fish and Chips"
+UK_food_4.png,"Fish and Chips"
+UK_food_5.png,"Fish and Chips"
+UK_food_6.png,"English Breakfast,Baked Beans"
+UK_food_7.png,"Fish and Chips"
+UK_food_8.png,"Baked Beans,Beans on toast"
+UK_food_9.png,"English Breakfast"
+UK_food_10.png,"Trifle"
+UK_food_11.png,"Bangers and mash"
+UK_food_12.png,"Toad in the hole"
+UK_food_13.png,"Sausage roll"
+UK_food_14.png,"Sausage roll"
+UK_food_15.png,"Crumpet"
+UK_food_16.png,"Baked beans,Beans on toast"
+UK_food_17.png,"Scotch egg"
+UK_food_18.png,"English breakfast"
+UK_food_19.png,"Chip butty"
+UK_food_20.png,"Pasty,Cornish pasty"
+UK_food_21.png,"Pasty,Cornish pasty"
+UK_food_22.png,"Scotch egg"
+UK_food_23.png,"Pork pie"
+UK_food_24.png,"Pork pie"
+UK_food_25.png,"Scone"
+UK_food_26.png,"Fish and chips"
+UK_food_27.png,"Mushy Peas"
+UK_food_28.png,"Fish Fingers"
+UK_food_29.png,"Fish and chips"
+UK_food_30.png,"Fish and chips"
+UK_food_31.png,"Fish and chips"
+UK_food_32.png,"English breakfast,baked beans"
+US_food_0.png,"Hot Dog"
+US_food_1.png,"Marshmallow"
+US_food_2.png,"Burger,Hamburger"
+US_food_3.png,"Grilled cheese,Toastie"
+US_food_4.png,"Hot dog"
+US_food_5.png,"Roast turkey,turkey"
+US_food_6.png,"Brownie"
+US_food_7.png,"Brownie"
+US_food_8.png,"Sweet Pie,Apple Pie"
+US_food_9.png,"Grilled Ribs,Ribs"
+US_food_10.png,"Burger,Hamburger"
+US_food_11.png,"Pumpkin Pie, Pie,Apple Pie"
+US_food_12.png,"Chocolate chip cookie,cookie"
+US_food_13.png,"Fried Wings,Wings"
+US_food_14.png,"Corn dog"
+US_food_15.png,"Mac and Cheese,Macaroni and Cheese,Mac & cheese"
+US_food_16.png,"Burger,Hamburger"
+US_food_17.png,"Burger,Hamburger"
+US_food_18.png,"Hot dog"
+US_food_19.png,"Corn dog"
+US_food_20.png,"Mac and cheese,Macaroni,Macaroni and cheese,Mac & cheese"
+US_food_21.png,"Corn dog,corn dogs"
+US_food_22.png,"Burger,Hamburger"
+US_food_23.png,"Smore"
+US_food_24.png,"Mac and cheese,Macaronie,Macaroni and cheese,Mac & cheese"
+US_food_25.png,"Burger,Hamburger"
+US_food_26.png,"Burger,Hamburger"
+US_food_27.png,"Pancake"
+US_food_28.png,"Ribs,Grilled ribs,Rib"
+US_food_29.png,"Pancake"
+US_food_30.png,"Pancake"
+US_food_31.png,"Ribs,Grilled ribs,Rib"
+US_food_32.png,"Roast turkey,turkey"

@@ -1,1 +1,3 @@
 .env
+images/*
+!images/food_label.csv
